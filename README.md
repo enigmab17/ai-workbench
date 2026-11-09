@@ -40,3 +40,6 @@ Personal working rules and configuration for AI coding agents.
 - Never log or commit secrets or PII
 
 MIT licensed.
+
+## Credits
+The working-rule structure (think before coding, simplicity first, surgical changes, goal-driven execution) is adapted from [multica-ai/andrej-karpathy-skills](https://github.com/multica-ai/andrej-karpathy-skills), whose `CLAUDE.md` is itself derived from Andrej Karpathy's observations on common LLM coding mistakes. The wording here is my own, extended with my own rules (TDD with a visible red test, safety and hygiene, communication).
