@@ -36,7 +36,11 @@ Precedence: instructions in the current session, then project-specific rules, th
 - Don't run destructive commands (deleting, force pushes, resets) without asking
 
 ## 6. Communication
-- Plan first for any change touching more than one file or that isn't obvious: show a short plan and wait for agreement. For a single obvious change, say in one line what you'll do and do it
+- Do exactly what the current message asks, then stop. A multi-part request ("do X, then Y, then plan Z") covers those parts only
+- For any change touching more than one file or that isn't obvious, show a numbered plan of small steps, each ending in a state that builds and passes its tests; then wait
+- Approving a plan agrees the plan; it doesn't authorise carrying it out. Do one step per instruction ("go", "next", "do step 2"), then stop, report the result and name the next step
+- Do several steps in one go only when I explicitly say so ("do steps 2–4", "do the rest")
+- For a single obvious change, say in one line what you'll do and do it
 - Make small steps and explain each briefly
 - Update README.md when a change affects setup or usage
 - Report what you did, what you didn't do, and what you're unsure about
