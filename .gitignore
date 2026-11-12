@@ -2,6 +2,9 @@
 !.gitignore
 !README.md
 !LICENSE
-!AGENTS.md
 !claude/
 !claude/**
+!rules/
+!rules/**
+!profiles/
+!profiles/**
